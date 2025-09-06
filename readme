@@ -1,0 +1,88 @@
+# Alera Fitness
+
+A comprehensive fitness tracking application built with React that helps users monitor their health, nutrition, and exercise routines.
+
+## Features
+
+- **Dashboard**: Overview of your fitness metrics and progress
+- **BMI Calculator**: Calculate and track your Body Mass Index
+- **Water Tracker**: Monitor your daily water intake
+- **Nutrition Tracker**: Search for food nutrition information and log your meals
+- **Exercise Logger**: Record your workouts with timer functionality
+- **Profile Management**: Maintain your personal information and fitness goals
+
+## Technologies Used
+
+- React 18
+- React Router for navigation
+- Chart.js for data visualization
+- Axios for API requests
+- Local Storage for data persistence
+- CalorieNinjas API for nutrition information
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v14.0.0 or later)
+- npm (v6.0.0 or later)
+
+### Installation
+
+1. Clone the repository to your local machine
+   ```
+   git clone https://github.com/yourusername/alera-fitness.git
+   ```
+
+2. Navigate to the project directory
+   ```
+   cd alera-fitness
+   ```
+
+3. Install dependencies
+   ```
+   npm install
+   ```
+
+4. Create a `.env` file in the root directory with your API keys
+   ```
+   REACT_APP_API_KEY=your_calorieninjas_api_key
+   REACT_APP_API_URL=https://api.calorieninjas.com/v1/nutrition?query=
+   ```
+
+5. Start the development server
+   ```
+   npm start
+   ```
+
+6. Open your browser and go to `http://localhost:3000`
+
+## Usage
+
+### BMI Calculator
+Enter your weight (kg) and height (cm) to calculate your BMI. Your BMI history will be saved for tracking progress.
+
+### Water Tracker
+Set a daily goal for water intake and track your progress throughout the day. Click "Add Cup" each time you drink a cup of water.
+
+### Nutrition Tracker
+Search for food items to view their nutritional information including calories, protein, carbohydrates, and fats. Save items to your nutrition log.
+
+### Exercise Logger
+Record your workouts with exercise name, reps, and duration. Use the built-in timer to track your workout times.
+
+### Profile
+View and edit your personal information and fitness goals.
+
+## Data Storage
+
+All your data is stored locally in your browser's local storage. No data is sent to external servers except for nutrition information queries.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Acknowledgments
+
+- Nutrition data provided by [CalorieNinjas API](https://calorieninjas.com/api)
+- Icons and design inspiration from various fitness applications

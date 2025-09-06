@@ -1,0 +1,74 @@
+/* src/components/MealLog.css */
+
+.meal-log {
+  padding: 20px;
+}
+
+h2 {
+  color: #333;
+  font-size: 2rem;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.search-box input {
+  padding: 10px;
+  margin-right: 10px;
+  width: 250px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.search-box button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: #36a2eb;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.search-box button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
+
+.result {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
+
+.result h3 {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.result p {
+  color: #555;
+}
+
+.nutrients {
+  margin-top: 10px;
+}
+
+.nutrients div {
+  font-size: 1rem;
+  color: #555;
+}
+
+.nutrients span {
+  font-weight: bold;
+}

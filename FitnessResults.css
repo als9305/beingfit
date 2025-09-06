@@ -1,0 +1,125 @@
+
+/* FitnessResults.css */
+.fitness-results {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+  }
+  
+  .results-header {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .goal-badge {
+    display: inline-block;
+    padding: 0.3rem 1rem;
+    background: #3498db;
+    color: white;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+  }
+  
+  .metrics-section {
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem 0;
+  }
+  
+  .metric {
+    text-align: center;
+    padding: 1rem;
+    background: white;
+    border-radius: 8px;
+    width: 30%;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  }
+  
+  .metric-value {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #2c3e50;
+    display: block;
+  }
+  
+  .metric-label {
+    font-size: 0.9rem;
+    color: #7f8c8d;
+  }
+  
+  .plan-section {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  }
+  
+  .workout-split ul {
+    margin-top: 0.5rem;
+    padding-left: 1.2rem;
+  }
+  
+  .workout-split li {
+    margin-bottom: 0.5rem;
+    position: relative;
+    left: 1rem;
+  }
+  
+  .macros {
+    display: flex;
+    justify-content: space-between;
+    margin: 1.5rem 0;
+  }
+  
+  .macro {
+    text-align: center;
+    width: 30%;
+    padding: 1rem;
+    background: #f0f7fc;
+    border-radius: 8px;
+  }
+  
+  .macro-value {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #2980b9;
+    display: block;
+  }
+  
+  .macro-label {
+    font-size: 0.9rem;
+    color: #7f8c8d;
+  }
+  
+  .meal-tips ul {
+    margin-top: 0.5rem;
+    padding-left: 1.2rem;
+  }
+  
+  .meal-tips li {
+    margin-bottom: 0.3rem;
+  }
+  
+  .reset-btn {
+    display: block;
+    width: 100%;
+    padding: 0.8rem;
+    background: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 2rem;
+    transition: background 0.3s;
+  }
+  
+  .reset-btn:hover {
+    background: #c0392b;
+  }

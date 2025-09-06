@@ -1,0 +1,63 @@
+.dashboard {
+  padding: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.dashboard-stats {
+  font-size: 18px;
+  margin-bottom: 20px;
+  background-color: #f4f4f4;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.chart-container {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto 30px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.meal-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.meal-list li {
+  background-color: #f9f9f9;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+}
+
+.meal-list h4 {
+  margin-top: 0;
+  font-size: 18px;
+}
+
+.nutrients div {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.delete-btn {
+  margin-top: 10px;
+  padding: 6px 12px;
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.delete-btn:hover {
+  background-color: #c0392b;
+}
